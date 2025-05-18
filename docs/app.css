@@ -6,9 +6,9 @@
 }
 
 :root {
-  --primary-color: #154558;
+  --primary-color: #0066cc;
   --primary-text-color: #ffffff;
-  --primary-hover-color: #154558;
+  --primary-hover-color: #004999;
   --primary-shadow-color: #154558;
 
   --secondary-color: #6c757d;
@@ -245,7 +245,7 @@ i.loader-button {
 
 /* HEADER */
 header {
-  background-color: #00b3ff;
+  background-color: #ffffff;
 
   position: sticky;
   inset-block-start: 0;
@@ -258,7 +258,7 @@ header {
 .header-content {
   min-height: 90px;
   padding-block: 20px;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -779,7 +779,7 @@ header {
 /* story REPORT FORM */
 .story-story__header {
   padding-block: 70px;
-  background-color: #d9770626;
+  background-color: #ffffff;
   background-image: url(22c88b4abb7e3ccf0c99.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -935,7 +935,7 @@ footer {
 .copyright {
   text-align: center;
 }
-
+/*===responsive*/
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -1074,7 +1074,7 @@ footer {
   }
 
   .stories-list {
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
   }
 
   .report-detail__images {
@@ -1119,7 +1119,7 @@ footer {
 .leaflet-safari .leaflet-tile {
 	image-rendering: -webkit-optimize-contrast;
 	}
-/* hack that prevents hw layers "stretching" when loading story tiles */
+/* hack that prevents hw layers "stretching" when loading new tiles */
 .leaflet-safari .leaflet-tile-container {
 	width: 1600px;
 	height: 1600px;
